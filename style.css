@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width:100%;
+    height: 607px;
+    display :grid;
+    grid-template-columns: 10% 90%;
+}
+#container #left_box{
+    background-color:rgb(247, 247, 247);
+    box-shadow:10px 6px 7px rgb(233, 232, 232);
+    
+}
+#container #left_box .icon {
+    margin:10px;
+    height: 75px;
+    width: 117px;
+    
+}
+#container #left_box .icon .fas {
+    margin:10px;
+    font-size: 30px;
+    cursor: pointer;
+    position: relative;
+    left:20px;
+
+}
+#container #left_box #icon{
+    box-shadow: 2px 3px 5px white;
+}
+#container #left_box .icon .fa-blog {
+    font-size: 35px;
+    color:red;
+}
+#container #left_box .icon .fa-user {
+    color: blue;
+}
+#container #left_box .icon .fa-book{
+    color:rgb(11, 157, 241)
+}
+#container #left_box .icon .fa-cog{
+    color:grey
+}
+#container #left_box .icon span {
+    position: relative;
+    top:18px;
+    left:-30px;
+    font-size: 13px;  
+}
+#container #left_box .icon:hover {
+    background-color: rgb(135, 207, 240);
+}
+
+#container #right_box #leaving_space {
+    height:12%;
+    width: 100%;
+    background-color: white;
+    
+}
+#container #right_box #file_box {
+    width:100%;
+    height:88%;
+    background-color: rgba(243, 242, 242,0.5);  
+    color:rgb(110, 108, 108);
+}
+
+#container #right_box #file_box .fa-caret-left {
+    font-size: 17px;
+    margin: 30px;
+    cursor: pointer;
+    position: relative;
+    top:-90px
+   
+}
+#container #right_box #file_box #video {
+    margin-left: -23px;
+    position: relative;
+    top:-90px
+}
+#container #right_box #file_box #search_box {
+    height:40px;
+    width:60%;
+    margin:100px ;
+    border-radius: 15px ;
+    border: none;
+    background-color: white;
+    color:black;
+    padding:10px
+}
+#container #right_box #file_box #or{
+    position: relative;
+    top:-55px;
+    text-align: center;
+    color:black;
+}
+#container #right_box #file_box #upload_files {
+    height:150px;
+    width:150px;
+    background-color: white;
+    border:none;
+    color:black;
+    margin-left:100px;position: relative;
+    top:-35px;
+}
+
+
+#container #right_box #file_box #upload_files p {
+    text-align: center;
+    position: relative;
+    top:65px;
+}
